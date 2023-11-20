@@ -1,6 +1,3 @@
-// NOTE: removed the "remove button" functionality for the purpose of implementing localStorage
-
-
 const addTodo = document.querySelector("#add-todo"); // the container around add to-do's
 const item = document.querySelector("input[type=text]"); // the text input box
 const todoList = document.querySelector("#to-do-list"); // the entire UL container containing to-do's
@@ -66,7 +63,6 @@ todoList.addEventListener("click", function(e) {
         }
         // loops for the item within the localStorage object and updates the "completed" status
         for (let i = 0; i < savedTodos.length; i++) {
-            //let list_item = document.querySelector("li");
             let item_wo_rm = clickedItem.innerText.replace('remove', '');
             // console.log(savedTodos[i].todo);
             // console.log(item_wo_rm);
