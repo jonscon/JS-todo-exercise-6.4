@@ -2,5 +2,4 @@
 The code for this exercise is located in "index.html" and "app.js". 
 
 ## Roadblocks
-I included both parts of my solution in one file, but I couldn't get the localStorage to work without relisting my remove button as text. Therefore, I commented 
-out the "remove" functionality in order for the localStorage portion to work.
+I included both parts of my solution in one file, but I initially couldn't get the localStorage to work without relisting my remove button as text. I was able to fix it through Google searches, referring to the todos-localStorage.js solution, and a lot of trial and error.
